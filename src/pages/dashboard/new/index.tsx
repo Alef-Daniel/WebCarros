@@ -81,7 +81,7 @@ export function New() {
         navigate('/dashboard')
         
       })
-      .catch((error)=>{
+      .catch(()=>{
         toast.error('Erro ao cadastrar informações')
       })
 }
